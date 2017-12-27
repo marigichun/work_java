@@ -4,12 +4,12 @@ public class HelloChars {
 	
 	public static void main(String[] args) {
 	
-		System.out.println('a');			//charÇü
-		System.out.println('\\');			// \Å°¸¦ Ãâ·ÂÇÏ´Â ¸í·É¾î
-		System.out.println('\142');			//8Áø¼ö 142ÀÇ ASCII ÄÚµå°ª(10Áø¼ö 98ÀÇ ASCIIÄÚµå°ª)
-		System.out.println('\uAC00');		//Unicode °ª AC00 : °¡
-		System.out.println('\uAC01');		//Unicode °ª AC00 : °¢
-		System.out.println('°­');	
+		System.out.println('a');			//charí˜•
+		System.out.println('\\');			// \í‚¤ë¥¼ ì¶œë ¥í•˜ëŠ” ëª…ë ¹ì–´
+		System.out.println('\142');			//8ì§„ìˆ˜ 142ì˜ ASCII ì½”ë“œê°’(10ì§„ìˆ˜ 98ì˜ ASCIIì½”ë“œê°’)
+		System.out.println('\uAC00');		//Unicode ê°’ AC00 : ê°€
+		System.out.println('\uAC01');		//Unicode ê°’ AC00 : ê°
+		System.out.println('ê°•');	
 		
 		System.out.print("Hello\nWorld\thi\b\rABC\r\n");
 		System.out.println("\'");

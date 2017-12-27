@@ -1,9 +1,9 @@
 package programming.bagic;
-// ¾È³çÇÏ¼¼¿ä ¹Ý°©½À´Ï´Ù.
+// ì•ˆë…•í•˜ì„¸ìš” ë°˜ê°‘ìŠµë‹ˆë‹¤.
 public class HelloProgramming02 {
 	//
-	static String hello = "¾È³çÇÏ¼¼¿ä. ¿©·¯ºÐ - ¹Ý°©½À´Ï´Ù.";
-	static String hello3 = "¾È³çÇÏ¼¼¿ä. ¿©·¯ºÐ.";
+	static String hello = "ì•ˆë…•í•˜ì„¸ìš”. ì—¬ëŸ¬ë¶„ - ë°˜ê°‘ìŠµë‹ˆë‹¤.";
+	static String hello3 = "ì•ˆë…•í•˜ì„¸ìš”. ì—¬ëŸ¬ë¶„.";
 	
 	public static void main(String[] args) {
 		//

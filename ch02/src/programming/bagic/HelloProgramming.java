@@ -2,20 +2,20 @@ package programming.bagic;
 
 public class HelloProgramming {
 
-		//ÀÎ½ºÅÏ½º º¯¼ö (Insrance Variable)¼±¾ğ(ÇÊµå,¸â¹ö º¯¼ö)
+		//ì¸ìŠ¤í„´ìŠ¤ ë³€ìˆ˜ (Insrance Variable)ì„ ì–¸(í•„ë“œ,ë©¤ë²„ ë³€ìˆ˜)
 		
-			static String fd = " -- ÇÊµå";
-			static String md = " -- ¸Ş¼Òµå";
+			static String fd = " -- í•„ë“œ";
+			static String md = " -- ë©”ì†Œë“œ";
 			
-		//ÀÚ¹Ù ÇÁ·Î±×·¥À» ½ÇÇàÇÏ´Â main() ¸Ş¼Òµå ±¸Çö
+		//ìë°” í”„ë¡œê·¸ë¨ì„ ì‹¤í–‰í•˜ëŠ” main() ë©”ì†Œë“œ êµ¬í˜„
 		public static void main(String[] args) {
 				
-			System.out.println ("ÀÚ¹Ù Å¬·¡½ºÀÇ ±¸Á¶");
+			System.out.println ("ìë°” í´ë˜ìŠ¤ì˜ êµ¬ì¡°");
 			write(fd);
 			write(md);
 			}
 		
-		//ÇÁ·Î±×·¡¸Ó°¡ Á¤ÀÇÇÏ´Â ¸Ş¼Òµå write()ÀÇ ±¸Çö 35ÆäÀÌÁöÀÇ ¹Ù¸¥ °æ¿ì
+		//í”„ë¡œê·¸ë˜ë¨¸ê°€ ì •ì˜í•˜ëŠ” ë©”ì†Œë“œ write()ì˜ êµ¬í˜„ 35í˜ì´ì§€ì˜ ë°”ë¥¸ ê²½ìš°
 		public static void write(String word) {
 		System.out.println (word);
 		}

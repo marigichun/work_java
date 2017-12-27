@@ -8,10 +8,10 @@ public class Test03 {
 		int n= 5;
 		switch (n % 3 ) {
 			case 0:
-				System.out.printf("3ÀÇ ¹è¼öÀÔ´Ï´Ù.\n");
+				System.out.printf("3ì˜ ë°°ìˆ˜ì…ë‹ˆë‹¤.\n");
 				break;
 			case 1: case 2:
-				System.out.printf("3ÀÇ ¹è¼ö°¡ ¾Æ´Õ´Ï´Ù.\n");"
+				System.out.printf("3ì˜ ë°°ìˆ˜ê°€ ì•„ë‹™ë‹ˆë‹¤.\n");"
 				break;
 		
 		

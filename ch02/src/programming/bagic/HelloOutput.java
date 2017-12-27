@@ -2,14 +2,14 @@ package programming.bagic;
 
 import java.util.Scanner;
 
-     //ctrl + shift +o :ÀÚµ¿À¸·Î  inport Ãß°¡
-     //Scanner ´ë½Å *À» ½áµµ µÇÁö¸¸ ÀüºÎ¸¦ »ç¿ëÇØ¾ßÇÏ±â ¶§¹®¿¡ ÁöÁ¤ÇØÁÖ´Â°ÍÀÌ ÁÁ´Ù
+     //ctrl + shift +o :ìë™ìœ¼ë¡œ  inport ì¶”ê°€
+     //Scanner ëŒ€ì‹  *ì„ ì¨ë„ ë˜ì§€ë§Œ ì „ë¶€ë¥¼ ì‚¬ìš©í•´ì•¼í•˜ê¸° ë•Œë¬¸ì— ì§€ì •í•´ì£¼ëŠ”ê²ƒì´ ì¢‹ë‹¤
 public class HelloOutput {
 		
 		public static void main(String[] args) {
 			Scanner input = new Scanner(System.in);
 			
-			System.out.println("½ÊÁø¼ö¿Í ÀÌÁø¼ö¸¦ °¢°¢ ÀÔ·ÂÇÏ¼¼¿ä.");
+			System.out.println("ì‹­ì§„ìˆ˜ì™€ ì´ì§„ìˆ˜ë¥¼ ê°ê° ì…ë ¥í•˜ì„¸ìš”.");
 			int num1 = input.nextInt();
 			int num2 = input.nextInt(2);
 			System.out.println("num1 = " + num1 + ", num2 = " + num2);

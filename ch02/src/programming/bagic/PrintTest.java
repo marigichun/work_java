@@ -4,13 +4,13 @@ public class PrintTest {
 		public static void main(String[] args) {
 			
 			/*
-			 * %d(Decimal): 10Áø¼ö
-			 * %f:½Ç¼ö·Î Ãâ·Â
-			 * %s(String):¹®ÀÚ¿­
+			 * %d(Decimal): 10ì§„ìˆ˜
+			 * %f:ì‹¤ìˆ˜ë¡œ ì¶œë ¥
+			 * %s(String):ë¬¸ìì—´
 			 */
 			
 			//6-1
-			System.out.printf("%d %f %S" , 10, 3.7854, "Á¤¼ö");
+			System.out.printf("%d %f %S" , 10, 3.7854, "ì •ìˆ˜");
 			
 			System.out.println();
 			//6-2

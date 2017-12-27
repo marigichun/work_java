@@ -1,10 +1,10 @@
 public class HelloWorld {
 	
-	//main method: ÇÁ·Î±×·¥ÀÇ ½ÃÀÛÁ¡
+	//main method: í”„ë¡œê·¸ë¨ì˜ ì‹œì‘ì 
 	public static void main(String[] args) {
 
 
-		System.out.println("¾È³çÇÏ¼¼¿ä. ¿©·¯ºĞ!");
+		System.out.println("ì•ˆë…•í•˜ì„¸ìš”. ì—¬ëŸ¬ë¶„!");
 	}
   
 }

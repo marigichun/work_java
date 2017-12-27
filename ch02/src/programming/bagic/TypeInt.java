@@ -7,7 +7,7 @@ public class TypeInt {
 		byte b = 10;
 		short s = 100;
 		int i = 50;
-		long l = 1000L;//1000000000000 intÀÇ ¹üÀ§¸¦ ¹ş¾î³ª±â ¶§¹®
+		long l = 1000L;//1000000000000 intì˜ ë²”ìœ„ë¥¼ ë²—ì–´ë‚˜ê¸° ë•Œë¬¸
 		
 		System.out.printf("%d %d %d %d", b, s, i, l);
 		//                ("%a %b % %d", a, b, c, d);
