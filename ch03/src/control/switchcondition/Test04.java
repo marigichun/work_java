@@ -5,10 +5,10 @@ public class Test04 {
 		int x = 20;
 		switch (x) {
 		case  x > 0 :
-			System.out.printf("¾ç¼ö\n");
+			System.out.printf("ì–‘ìˆ˜\n");
 			break;
 		case  x < 0:
-			System.out.printf("À½¼ö\n");
+			System.out.printf("ìŒìˆ˜\n");
 		}
 	}
 
