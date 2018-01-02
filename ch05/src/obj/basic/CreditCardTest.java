@@ -1,4 +1,4 @@
-package loj.basic;
+package obj.basic;
 
 
 public class CreditCardTest {
