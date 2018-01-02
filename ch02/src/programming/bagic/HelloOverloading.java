@@ -6,7 +6,7 @@ public class HelloOverloading {
 		
 		/*
 		 * 메소드 오버로딩(Method Overloading)의 호출조건
-		 * 1.Argument(Parmeter)의 개수가 일치
+		 * 1.Argument(Parameter)의 개수가 일치
 		 * 2.Argument의 타입이 일치할 경우
 		 */
 		int sum = plus(10, 20);
@@ -17,7 +17,7 @@ public class HelloOverloading {
 	}
 	
 	static int plus(int a, int b) {
-		int result = a +b;
+		int result = a + b;
 		return result;
 	}
 	

@@ -4,8 +4,18 @@ public class TestDrive {
 
 	public static void main(String[] args) {
 		//강사 sanghoon 생성-Teacher클래스의 객체(Object-sanghoon)를 생성
-		Teacher sanghoon = new Teacher();
-
+		Teacher sanghoon = new Teacher();//기본 생성자를 호출 생성자() 생성하고 호출한것임
+		
+		/*기본 생성자
+		 * 만약  구현된 생성자가 없다면
+		 * 컴파일러가 기본 생성자를 자동으로 생성한다.
+		 */
+		//다른 Teacher라도 생성하면 다양하게 생성
+		Teacher changmok = new Teacher("수학");
+		Teacher gildong = new Teacher("국어",3);
+		Teacher younghee = new Teacher("영어",10,"영희선생 어학원");
+		
+	
 		//강사 sanghoon의 정보 입력
 		sanghoon.setAddress ("상도동");
 		sanghoon.setAge(32); 
@@ -15,6 +25,10 @@ public class TestDrive {
 		sanghoon.setSsn("861201");
 		sanghoon.setSubject("프로그래밍");
 		sanghoon.setYear(1);
+		
+		//Person의 print()메소드 호출
+		sanghoon.print();			//person의 print() 메소드 호출
+		sanghoon.print();	//Tercher의 pdintTeacher()메소드 호출
 
 		//학생  taehyun 생성-Student클래스의 객체(Object-taehyun)를 생성
 		Student taehyun = new Student();	
@@ -59,6 +73,14 @@ public class TestDrive {
 		System.out.println(taehyun.getMajor());
 		System.out.println(taehyun.getName());
 		System.out.println(taehyun.getAge());
+		
+		//default 접근 제한자로 변경 시 발생하는 문제, 조작 및 보호가 되지 않음 자바의 객체지향의 위배
+		//sanghoon.ssn = "881201";
+		//System.out.println("주민등록번호 날조: " + sanghoon.ssn);
+		
+		//외부에서 날조를 예방하는 방법
+		sanghoon.setSsn("801201");
+		System.out.println("주민등록번호 날조: " + sanghoon.getSsn());
 	}
 
 }
