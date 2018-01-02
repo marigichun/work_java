@@ -7,9 +7,9 @@ public class Test01 {
 		Scanner input = new Scanner(System.in);
 		int n= 20;
 		if (n == 0);
-		System.out.println("ì§ìˆ˜");
+		System.out.println("Â¦¼ö");
 		
-	System.out.println("í™€ìˆ˜");
+	System.out.println("È¦¼ö");
 	}	
 }
 

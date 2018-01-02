@@ -7,14 +7,14 @@ public class Test02예제1 {
 				continue;
 				if(i % 3 == 100)
 				
-					if(i % 5 == 100)
+					if(i % 5 == 100);
 					
 					
 						}
 			}
 			else {
 				System.out.println(i++);
-			}
+			
 		}
 	}
 
