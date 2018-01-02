@@ -26,9 +26,18 @@ public class CreditCard {
 		//System.out.println(local); 	//에러발생
 		
 		
-		myCard.number =3456_7654_8765_5647L;
+		myCard.number = 3456_7654_8765_5647L;
 		myCard.owner = "유 재석";
 		System.out.print("카드번호: " + myCard.number);
 		System.out.println(", 카드소유자: " + myCard.owner);
+		
+		//주소값 비교
+		if(myCard.number==3456_7654_8765_5647L){
+			System.out.println("같다");
+		}	
+		else {
+			System.out.println("같다");
+			
+		}
 	}
 }
