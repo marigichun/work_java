@@ -26,7 +26,6 @@ public class Teacher extends Person{
 		this.subject = subject;
 		this.year = year;
 	}
-	
 	//생성자:필드 전체를 초기화하는 생성자
 	public Teacher(String subject , int year,String group) {
 		this.subject = subject;

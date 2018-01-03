@@ -16,7 +16,7 @@ public class Circle {
 		//this.PI=자기 자신의 객체를 표현하는 this로는 정적 멤버를 참조 불가능 
 	}
 	//주요 정보 출력
-	public void rpint() {
+	public void print() {
 		System.out.printf("반지름이 %f인 원의 면적은%f이다. %n", radius, getArea());
 	}
 	
