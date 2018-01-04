@@ -9,8 +9,8 @@ public class Dog {
 	public Dog(String name) {
 		this.name = "doori";
 	}
-	public void String getName() {
-		this name; 
+	public void String String getName() {
+		this.name; 
 		return this.name;
 	}
 	public void String setNmae() {

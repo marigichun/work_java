@@ -2,7 +2,7 @@ package com.koitt.java.class03;
 
 public class Cat {
 	private String name;	//고양이 이름
-	private int age;			//고양이 나이
+	private int age;		//고양이 나이
 	
 	public Cat(String name, int age) {
 		this.name = name;
