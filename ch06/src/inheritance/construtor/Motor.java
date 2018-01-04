@@ -8,6 +8,10 @@ public class Motor extends Vehicle{
 	public String name = "자동차";		//이름
 	public int displacement;			//배기량
 	
+
+		
+		
+	}
 	public Motor() {
 		super();		//생략 가능
 	}
@@ -30,4 +34,6 @@ public class Motor extends Vehicle{
 		Motor myCar = new Motor(300, 4, 5000);
 		myCar.printInfo();
 	}
+
+	
 }

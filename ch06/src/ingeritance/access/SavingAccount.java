@@ -1,7 +1,9 @@
 package ingeritance.access;
 
 public class SavingAccount extends Account {
+	
 	public double rates;	//이자율
+	
 	
 	
 	
