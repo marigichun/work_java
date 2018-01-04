@@ -9,7 +9,10 @@ public class Vehicle {
 		private String name = "차량";		//이름
 		private double maxSpeed;			//최대 속도
 		private int seater;				//정원
-		//기본 생성자
+		/*
+		 * 기본 생성자 부모는 기본생성자를 필히 만들어줘야한다.
+		 * 부모가 없으면 자식이 기본 생성자를  못만들기 때문(객체)
+		 */
 		public Vehicle() {
 		}
 		public Vehicle(double maxSpeed, int seater) {

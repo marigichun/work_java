@@ -18,8 +18,9 @@ public class SavingAccount extends Account {
 		myAccount.withdraw(50000);
 		myAccount.checkBalance();
 		
-		System.out.println(myAccount.name);
+		System.out.println(myAccount.name);			//접근 가능
 		System.out.println(myAccount.open);
 		System.out.println(myAccount.number);
+		//System.out.println(myAccount.balance);
 	}
 }

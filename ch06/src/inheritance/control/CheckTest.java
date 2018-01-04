@@ -2,7 +2,7 @@ package inheritance.control;
 
 import ingeritance.access.SavingAccount;
 
-public class checkTest {
+public class CheckTest {
 	public static void main(String[] args) {
 		SavingAccount myAccount = new SavingAccount("김태희", 234567654, 0.34);
 		myAccount.deposit(250000);

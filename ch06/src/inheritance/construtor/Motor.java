@@ -12,8 +12,8 @@ public class Motor extends Vehicle{
 		 * 항상 부모의 생성자를 먼저 한번 호출해야 한다.
 		 */
 		super();		//Vehicle(); 생략 가능(컴파일러가 알아서 자동으로 생성)
-	}
-	
+	}	//부모의 기본 생성자가 없으면 자식도 생성을 못한다.(객체)
+		//따로 자식이 만들어 사용해야 한다.
 	public Motor(double maxSpeed, int seater, int displacement) {
 		super(maxSpeed, seater);
 		//this.maxSpeed = maxSpeed; //자식 필드 초기화
