@@ -1,4 +1,4 @@
-package ingeritance.access;
+package inheritance.access;
 
 import java.util.Date;
 /*
@@ -12,7 +12,7 @@ import java.util.Date;
 public class Account {
 	public String name;			//계좌주
 	protected Date open;		//계좌일자
-	/*package*/ int number;		//계좌번호
+	/*package*/ int number;		//계좌번호 default라서
 	private long balance;		//잔고
 	
 	
@@ -22,7 +22,7 @@ public class Account {
 	protected Account(String name, int number) {
 		this.name = name;
 		this.number = number;
-		this.open = new Date();
+		this.setOpen(new Date());//생성 시점의 시간 
 	}
 	
 	/*일반 메소드
@@ -44,6 +44,14 @@ public class Account {
 		Date b = this.open;
 		int c = this.number;
 		long d = this.balance;
+	}
+	
+	
+	public Date getOpen() {
+		return open;
+	}
+	public void setOpen(Date open) {
+		this.open = open;
 	}
 }
 

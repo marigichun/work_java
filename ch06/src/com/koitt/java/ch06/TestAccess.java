@@ -2,7 +2,7 @@ package com.koitt.java.ch06;
 
 import java.util.Date;
 
-import ingeritance.access.Account;
+import inheritance.access.Account;
 
 public class TestAccess extends Account {
 	 
@@ -10,7 +10,7 @@ public class TestAccess extends Account {
 	
 	public TestAccess(String name, int number) {
 		super(name, number);
-		Date a = this.open;
+		Date a = this.getOpen();
 	}
 	public static void main(String[] args) {
 		Account account = new Account();//public범위만
@@ -27,7 +27,7 @@ public class TestAccess extends Account {
 		/*
 		 * 접근 가능 (부모의 생성자가 protected 상속받은 클래스,패키지를 이용해서 객체를 생성했기 때문에)
 		 */
-		Date b = t.open;
+		Date b = t.getOpen();
 		
 		/*
 		 * 접근 불가능 (같은 패키지가 아니므로)

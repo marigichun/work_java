@@ -1,10 +1,9 @@
-package ingeritance.access;
+package inheritance.access;
 
 public class SavingAccount extends Account {
 	
+	
 	public double rates;	//이자율
-	
-	
 	
 	
 	public SavingAccount(String name, int number, double rates) {
@@ -19,8 +18,9 @@ public class SavingAccount extends Account {
 		myAccount.checkBalance();
 		
 		System.out.println(myAccount.name);			//접근 가능
-		System.out.println(myAccount.open);
-		System.out.println(myAccount.number);
-		//System.out.println(myAccount.balance);
+		System.out.println(myAccount.open);			//접근 가능
+		System.out.println(myAccount.number);		//접근 가능
+		//System.out.println(myAccount.balance);	//접근 불가
+		//부모가 private이라 접근이 불가해서 오류남
 	}
 }
