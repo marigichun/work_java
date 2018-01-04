@@ -1,7 +1,9 @@
 package inheritance.basic;
 
-import com.koitt.java.class01.Vehicle;
-
+import com.koitt.java.ch06.Vehicle;
+/*
+ * java는 c 언어와 다르게 상속을 하나의 클래스만 받을 수 있다.
+ */
 public class Motor extends Vehicle {
 	public String name = "자동차";	//이름		
 	private int displacement;		//배기량
