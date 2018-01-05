@@ -10,9 +10,8 @@ public class Person {
 		this.number = number;
 	}
 	
-	public void PrintInfo() {
-		System.out.print("이름: " + name + " 주민번호: " +number);
-		
-		
+	public void printInfo() {
+		System.out.println("이름: " + name + " 주민번호: " +number);
 	}
 }
+

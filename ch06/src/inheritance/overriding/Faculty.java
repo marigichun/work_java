@@ -1,8 +1,8 @@
 package inheritance.overriding;
 
 public class Faculty extends Person {
-	public String univ;
-	public long number;
+	public String univ;		//소속대학
+	public long number;		//사원번호
 	
 	public Faculty(String name, long number, String univ, long idNumber) {
 		super(name, number);
@@ -16,6 +16,11 @@ public class Faculty extends Person {
 	
 	public void printInfo() {
 		System.out.print("이름: " + super.name + " 주민번호: " + super.number);
-		System.out.println(" 대학: " + univ + " 직원번호: "+ number);
+		System.out.println(" 대학: " + univ + " 직원번호: "+ this.number);
+		
+	}
+	
+	public void printInfoPerson() {
+		super.printInfo();
 	}
 }

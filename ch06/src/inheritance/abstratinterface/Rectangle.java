@@ -9,7 +9,7 @@ public class Rectangle extends Shape{
 		this.width = width;
 		this.height = height;
 	}
-	
+	@Override
 	public void draw( ) {
 		super.drawCenter();
 		System.out.printf("가로: %f, 세로: %f, ", width, height);

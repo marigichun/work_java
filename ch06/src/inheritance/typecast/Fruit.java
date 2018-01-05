@@ -6,14 +6,16 @@ public class Fruit {
 		System.out.println(f instanceof Fruit);
 		System.out.println(f instanceof Apple);
 		System.out.println(f instanceof Grape);
+		
 		Fruit fa = new Apple();
-		System.out.println(f instanceof Fruit);
-		System.out.println(f instanceof Apple);
-		System.out.println(f instanceof Pear);
-		Fruit a = new Apple();
-		System.out.println(f instanceof Fruit);
-		System.out.println(f instanceof Apple);
-		//System.out.println(a instanceof Grape); 컴파일 오류
+		System.out.println(fa instanceof Fruit);
+		System.out.println(fa instanceof Apple);
+		System.out.println(fa instanceof Pear);
+		
+		Apple a = new Apple();
+		System.out.println(a instanceof Fruit);
+		System.out.println(a instanceof Apple);
+		//System.out.println(a instanceof Grape);   //컴파일 오류
 	}
 }
 

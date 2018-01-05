@@ -1,4 +1,4 @@
-package inheritance.overriding;
+package inheritance.overloading;
 
 public class MyMath {
 	double x, y;
