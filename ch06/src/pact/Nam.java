@@ -18,6 +18,5 @@ public class Nam {
 		System.out.println("4 % 3 = " + (4 % 3));
 		System.out.println("5 % 3 = " + (5 % 3));
 		System.out.println("6 % 3 = " + (6 % 3));
-		
 	}
 }
