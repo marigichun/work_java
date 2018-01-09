@@ -1,7 +1,9 @@
 package generics;
 
+import java.util.ArrayList;
+
 public class MyContainer<E> {
-	Private ArrayList<E> list;
+	private ArrayList<E> list;
 	
 	public MyContainer() {
 		list = new ArrayList<E>();

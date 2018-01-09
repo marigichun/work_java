@@ -7,11 +7,12 @@ import java.util.TimeZone;
 public class GregorianCalendarTest {
 	public static void main(String[] args) {
 		GregorianCalendar now = new GregorianCalendar();
-		now.setTimeZone(TimeZone.getTimeZone("Asia/Seoul"));
+		TimeZone timeZone = TimeZone.getTimeZone("Asia/Seoul");
+		now.setTimeZone(timeZone);
 		//now.setTimeZone(TimeZone.getTimeZone("America/Los_Angeles"));
 		
 		int year = now.get(Calendar.YEAR);
-		int month = now.get(Calendar.MONTH) + 1;	//월 시작이 0
+		int month = now.get(Calendar.MONTH) + 1;	//월 시작이 0-->+1로 해야 1월부터 시작
 		int date = now.get(Calendar.DATE);
 		int hour = now.get(Calendar.HOUR_OF_DAY);
 		int minute = now.get(Calendar.MINUTE);
