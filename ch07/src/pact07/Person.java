@@ -24,12 +24,10 @@ public class Person<p> {
 		String c = (a = b);
 		
 		Person<Object> p1 = new Person<Object>("홍길동");
-		System.out.println(p1.equals(new Person<Object>("홍길동")));
-		System.out.println(p1.equals(new Person<Object>("최영태")));
-	
-	static String name(a, b);
-		String result = a = b;
-		return;
+		System.out.println(p1.equals(new Person<Object>(a)));
+		System.out.println(p1.equals(new Person<Object>(b)));
+		System.out.println(p1.equals(new Person<Object>(c)));
+
 	}
 }	
 	
