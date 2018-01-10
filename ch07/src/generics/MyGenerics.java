@@ -7,13 +7,13 @@ public class MyGenerics {
 	}
 	
 	public static <T> T getLast(T[] ary) {
-		return ary[ary.length-1];
+		return ary[ary.length - 1];
 	}
 	
 	public static void main(String[] args) {
-		Integer n[] = {3, 4, 5, 7};
+		Integer[] n = {3, 4, 5, 7};
 		System.out.println(MyGenerics.get(n,  2) + " " + MyGenerics.getLast(n));
-	    String s[] = {"henerics" , "type casting", "input", "output"};
+	    String[] s = {"generics", "type casting", "input", "output"};
 	    System.out.println(MyGenerics.get(s,  1) + " " + MyGenerics.getLast(s));
 	}
 }

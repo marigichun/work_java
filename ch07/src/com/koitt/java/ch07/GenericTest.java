@@ -24,5 +24,12 @@ public class GenericTest<T> {
 		boolean isEqual2 = test.myEqual(a, b);
 		System.out.println(isEqual2);
 		
+		GenericTest<Object> test1 = new GenericTest<Object>();
+		boolean isEquals3 = test.myEqual(c,d);
+		System.out.println(isEquals3);
+		
+		boolean isEqual4 = test1.myEqual(c, d);
+		System.out.println(isEqual4);
+		
 	}
 }
